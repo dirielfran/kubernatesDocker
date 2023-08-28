@@ -1,0 +1,39 @@
+# Ignorar archivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar archivos de configuración específicos de IDE
+.idea/
+.vscode/
+*.iml
+
+# Ignorar directorio de construcción de Maven
+target/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos generados por Kubernetes
+*.yml
+*.yaml
+
+# Ignorar directorio de dependencias Maven
+~/.m2/
+
+# Ignorar directorio de compilación de Gradle
+build/
+.gradle/
+
+# Ignorar archivo de propiedades de aplicación (configuración local)
+application.properties
+
+# Ignorar archivos de respaldo
+*~
+
+# Ignorar directorio de caché de Node.js (si hay frontend en el proyecto)
+node_modules/
+
+# Ignorar directorio de caché de Gradle (si usas Gradle)
+.gradle/
