@@ -16,8 +16,8 @@ target/
 *.log
 
 # Ignorar archivos generados por Kubernetes
-*.yml
-*.yaml
+# *.yml
+# *.yaml
 
 # Ignorar directorio de dependencias Maven
 ~/.m2/
@@ -27,7 +27,7 @@ build/
 .gradle/
 
 # Ignorar archivo de propiedades de aplicación (configuración local)
-application.properties
+# application.properties
 
 # Ignorar archivos de respaldo
 *~
